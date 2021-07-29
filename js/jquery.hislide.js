@@ -31,11 +31,11 @@
             clearInterval(timer);
             timer = null;
         }).on('mouseleave', function () {
-            autoPlay();
+            // autoPlay();
         });
 
         move();
-        autoPlay();
+        // autoPlay();
 
         function move() {
             $lis.each(function (index, element) {
